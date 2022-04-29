@@ -41,6 +41,6 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
-    'prettier/prettier': 'warn',
+    'prettier/prettier': ['warn', { singleQuote: true }],
   },
 };
